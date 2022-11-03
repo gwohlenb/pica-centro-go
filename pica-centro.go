@@ -26,7 +26,7 @@ import (
 	"os"
 	"strconv"
 	"time"
-        "golang.org/x/term" // term is for collecting user input without them having to press return (stdin raw mode)
+	"golang.org/x/term" // term is for collecting user input without them having to press return (stdin raw mode)
                             // must be installed with "go get -u golang.org/x/term"
                             // requires go version >=  1.17
 )
