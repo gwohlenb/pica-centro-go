@@ -1,4 +1,4 @@
-module gwohlenb/pica-centro-go
+module github.com/gwohlenb/pica-centro-go
 
 go 1.19
 
