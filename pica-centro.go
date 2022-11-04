@@ -27,8 +27,8 @@ import (
 	"strconv"
 	"time"
 	"golang.org/x/term" // term is for collecting user input without them having to press return (stdin raw mode)
-                            // must be installed with "go get -u golang.org/x/term"
-                            // requires go version >=  1.17
+			    // must be installed with "go get -u golang.org/x/term"
+			    // requires go version >=  1.17
 )
 
 var secretNumberLength int = 4 // default length if the user doesn't specify otherwise on the command line
